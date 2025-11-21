@@ -19,8 +19,15 @@ git clone https://github.com/ktppt/py-sslscan-audit.git
 cd py-sslscan-audit
 chmod +x adv_sslscan.py
 
+🛠 Usage
 # Basic Scan
 python3 adv_sslscan.py target.com
 
 # Scan specific port with increased threads
 python3 adv_sslscan.py target.com -p 8443 -t 50
+
+📸 Screenshot
+<img width="830" height="718" alt="image" src="https://github.com/user-attachments/assets/0b30b378-f5ae-43b4-99bc-add86e6ad5cd" />
+
+⚠️ Disclaimer
+This tool is for educational purposes and security testing only. Use it only on systems you own or have permission to test.
