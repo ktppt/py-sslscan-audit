@@ -14,3 +14,7 @@ A Python-based SSL/TLS scanner designed for **Penetration Testers** and **Securi
 ## 📦 Installation
 
 No installation required. Just clone and run:
+```bash
+git clone https://github.com/ktppt/py-sslscan-audit.git
+cd py-sslscan-audit
+chmod +x adv_sslscan.py
