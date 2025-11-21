@@ -18,3 +18,9 @@ No installation required. Just clone and run:
 git clone https://github.com/ktppt/py-sslscan-audit.git
 cd py-sslscan-audit
 chmod +x adv_sslscan.py
+
+# Basic Scan
+python3 adv_sslscan.py target.com
+
+# Scan specific port with increased threads
+python3 adv_sslscan.py target.com -p 8443 -t 50
