@@ -2,7 +2,7 @@
 
 A Python-based SSL/TLS scanner designed for **Penetration Testers** and **Security Auditors**. This tool mimics the functionality of `sslscan` but includes enhanced features for modern assessment environments (like Kali Linux 2024+).
 
-## 🚀 Key Features
+## Key Features
 
 * **Color-Coded Risk Assessment:** Instantly highlights weak ciphers (Red for Critical, Yellow for Weak/CBC).
 * **Cipher Enumeration:** Brute-forces cipher suites to find everything the server supports, not just the preferred ones.
@@ -11,7 +11,7 @@ A Python-based SSL/TLS scanner designed for **Penetration Testers** and **Securi
 * **Detailed Info:** Checks for HTTP/2 (ALPN), TLS Compression (CRIME risk), and server preferences.
 * **Dependency Free:** Uses only standard Python libraries (`ssl`, `socket`, `threading`).
 
-## 📦 Installation
+## Installation
 
 No installation required. Just clone and run:
 ```bash
@@ -20,7 +20,7 @@ cd py-sslscan-audit
 chmod +x adv_sslscan.py
 ```
 
-## 🛠 Usage
+## Usage
 # Basic Scan
 ```
 python3 adv_sslscan.py target.com
@@ -31,7 +31,7 @@ python3 adv_sslscan.py target.com
 python3 adv_sslscan.py target.com -p 8443 -t 50
 ```
 
-## 📸 Screenshot
+## Screenshot
 <img width="830" height="718" alt="image" src="https://github.com/user-attachments/assets/0b30b378-f5ae-43b4-99bc-add86e6ad5cd" />
 
 ## ⚠️ Disclaimer
